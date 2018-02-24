@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAnnotations", "DataAnno
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentAPI", "FluentAPI\FluentAPI.csproj", "{001F560B-1EA8-44DD-A224-2E417848D86B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queries", "..\..\..\..\Desktop\Luke\UdemyCourses\queries folder\Queries\Queries\Queries.csproj", "{D1776DED-C59A-4F8A-8C31-96EAE15BDF5A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queries", "Queries\Queries.csproj", "{D1776DED-C59A-4F8A-8C31-96EAE15BDF5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
