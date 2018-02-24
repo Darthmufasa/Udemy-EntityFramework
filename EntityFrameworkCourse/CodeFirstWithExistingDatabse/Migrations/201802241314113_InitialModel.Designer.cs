@@ -7,13 +7,13 @@ namespace CodeFirstWithExistingDatabse.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class AddDatePublishedToCourses : IMigrationMetadata
+    public sealed partial class InitialModel : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(AddDatePublishedToCourses));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(InitialModel));
         
         string IMigrationMetadata.Id
         {
-            get { return "201802131532013_AddDatePublishedToCourses"; }
+            get { return "201802241314113_InitialModel"; }
         }
         
         string IMigrationMetadata.Source

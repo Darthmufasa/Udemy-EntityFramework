@@ -15,19 +15,17 @@ namespace CodeFirstWithExistingDatabse
             Tags = new HashSet<Tag>();
         }
 
-        public int ID { get; set; }
+        public int Id { get; set; }
 
         public string Name { get; set; }
 
         public string Description { get; set; }
-        public Category Category { get; set; }
-        public DateTime? DatePublished { get; set; }
 
         public int Level { get; set; }
 
         public float FullPrice { get; set; }
 
-        public int? Author_ID { get; set; }
+        public int? Author_Id { get; set; }
 
         public virtual Author Author { get; set; }
 

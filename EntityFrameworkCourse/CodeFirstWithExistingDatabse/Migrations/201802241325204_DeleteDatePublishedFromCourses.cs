@@ -3,14 +3,16 @@ namespace CodeFirstWithExistingDatabse.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class ModifyCOurseName2 : DbMigration
+    public partial class DeleteDatePublishedFromCourses : DbMigration
     {
         public override void Up()
         {
+            DropColumn("dbo.Courses", "DatePublished");
         }
         
         public override void Down()
         {
+            AddColumn("dbo.Courses", "DatePublished", c => c.DateTime());
         }
     }
 }
