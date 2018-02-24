@@ -49,11 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Migrations\201802131449467_initialModel.cs" />
-    <Compile Include="Migrations\201802131449467_initialModel.Designer.cs">
-      <DependentUpon>201802131449467_initialModel.cs</DependentUpon>
+    <Compile Include="Migrations\201802241214280_InitialModel.cs" />
+    <Compile Include="Migrations\201802241214280_InitialModel.Designer.cs">
+      <DependentUpon>201802241214280_InitialModel.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="ModelClasses.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -62,8 +63,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201802131449467_initialModel.resx">
-      <DependentUpon>201802131449467_initialModel.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201802241214280_InitialModel.resx">
+      <DependentUpon>201802241214280_InitialModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

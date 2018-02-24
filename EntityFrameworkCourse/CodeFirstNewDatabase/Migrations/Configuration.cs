@@ -5,14 +5,14 @@ namespace CodeFirstNewDatabase.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<CodeFirstNewDatabase.PlutoContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<CodeFirstNewDatabase.ModelClasses.PlutoContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(CodeFirstNewDatabase.PlutoContext context)
+        protected override void Seed(CodeFirstNewDatabase.ModelClasses.PlutoContext context)
         {
             //  This method will be called after migrating to the latest version.
 
