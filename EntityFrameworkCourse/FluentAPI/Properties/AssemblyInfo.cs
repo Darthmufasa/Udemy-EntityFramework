@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("DataAnnotations")]
+[assembly: AssemblyTitle("FluentAPI")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("DataAnnotations")]
+[assembly: AssemblyProduct("FluentAPI")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("7b1e1d54-aef3-414a-a2ce-5d18d57ea8d9")]
+[assembly: Guid("001f560b-1ea8-44dd-a224-2e417848d86b")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.27")]
-[assembly: AssemblyFileVersion("1.0.0.27")]
+[assembly: AssemblyVersion("1.0.0.13")]
+[assembly: AssemblyFileVersion("1.0.0.13")]
