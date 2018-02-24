@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2027
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseFirstDemo", "DatabaseFirstDemo\DatabaseFirstDemo.csproj", "{216AC181-5D69-4A67-BD09-EC10DC28B70C}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstNewDatabase", "CodeFirstNewDatabase\CodeFirstNewDatabase.csproj", "{AE193465-A91F-4D9A-9EFC-2CBB23558865}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstWithExistingDatabse", "CodeFirstWithExistingDatabse\CodeFirstWithExistingDatabse.csproj", "{8437CA0B-D685-4621-BB9E-63284F95A280}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAnnotations", "DataAnnotations\DataAnnotations.csproj", "{7B1E1D54-AEF3-414A-A2CE-5D18D57EA8D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{8437CA0B-D685-4621-BB9E-63284F95A280}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8437CA0B-D685-4621-BB9E-63284F95A280}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8437CA0B-D685-4621-BB9E-63284F95A280}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B1E1D54-AEF3-414A-A2CE-5D18D57EA8D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B1E1D54-AEF3-414A-A2CE-5D18D57EA8D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B1E1D54-AEF3-414A-A2CE-5D18D57EA8D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B1E1D54-AEF3-414A-A2CE-5D18D57EA8D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
