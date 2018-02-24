@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAnnotations", "DataAnno
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentAPI", "FluentAPI\FluentAPI.csproj", "{001F560B-1EA8-44DD-A224-2E417848D86B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queries", "..\..\..\..\Desktop\Luke\UdemyCourses\queries folder\Queries\Queries\Queries.csproj", "{D1776DED-C59A-4F8A-8C31-96EAE15BDF5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{001F560B-1EA8-44DD-A224-2E417848D86B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{001F560B-1EA8-44DD-A224-2E417848D86B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{001F560B-1EA8-44DD-A224-2E417848D86B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1776DED-C59A-4F8A-8C31-96EAE15BDF5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1776DED-C59A-4F8A-8C31-96EAE15BDF5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1776DED-C59A-4F8A-8C31-96EAE15BDF5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1776DED-C59A-4F8A-8C31-96EAE15BDF5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
